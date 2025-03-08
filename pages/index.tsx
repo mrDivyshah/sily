@@ -136,7 +136,7 @@ export default function Home() {
               <div ref={messagesEndRef}></div>
             </div>
 
-            <div className="p-4 bg-gray-800">
+            <div className="p-4 ">
               <ConfessionForm onSubmit={addMessage} /> {/* ✅ Fixed this */}
             </div>
           </>
